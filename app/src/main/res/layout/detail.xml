@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop = "true"
+        android:layout_alignParentLeft = "true"
+       	android:background="@drawable/butt"
+       	android:textColor="@android:color/white"
+        android:text="Back"
+        android:shadowRadius="20"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="1"
+		android:shadowDy="1"
+         />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop = "true"
+        android:layout_toRightOf="@id/button1"
+       	android:background="@drawable/butt"
+       	android:textColor="@android:color/white"
+        android:text="Menu"
+        android:shadowRadius="20"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="1"
+		android:shadowDy="1"
+         />
+ <View 
+	    android:id="@+id/id_line"
+	    android:layout_width="wrap_content"
+        android:background="@drawable/grad_line"
+        android:layout_below="@id/button1"
+        android:layout_height="1dp"></View>
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/id_line">
+    </ListView>
+	<TextView
+        android:id="@+id/bill_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" $$ "
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_alignParentBottom = "true"
+        android:layout_alignParentRight = "true"
+         />
+    <TextView
+        android:id="@+id/final_bill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price : "
+        android:layout_gravity="center"
+        android:textSize="12dp"
+        android:layout_toRightOf ="@id/bill_amount"
+         />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long press item to remove from Order \n Touch once on an Item to increase servings."
+        android:layout_gravity="center"
+        android:textSize="12dp"
+
+		android:layout_alignParentBottom="true"
+
+         />
+</RelativeLayout>
+

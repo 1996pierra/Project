@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "598418292652",
+    "firebase_url": "https://jipeorder.firebaseio.com",
+    "project_id": "jipeorder",
+    "storage_bucket": "jipeorder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598418292652:android:357ca40653edf6f4",
+        "android_client_info": {
+          "package_name": "com.example.pierrakimathi.jipeorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598418292652-s7ste48og3702smlf83ijr7lnhdq458l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKSErdtM2hv6uDM9ms-i6KXnv1BPNLY6o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
