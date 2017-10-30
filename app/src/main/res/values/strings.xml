@@ -8,5 +8,8 @@
     <string name="menu_display_image">Hope you enjoy</string>
     <string name="add_to_my_menu_">Add to Order.</string>
     <string name="explanation" />
+    <string name="introduction">Attach NDEF Text Tag</string>
+    <string name="nfc_not_supported">This device does not support NFC</string>
+    <string name="nfc_not_available">NFC is not available</string>
 
 </resources>
